@@ -9,7 +9,6 @@ task1.kt
 Input params string: "the quick brown fox jumps over the lazy dog"
 
 Output:
-hello
 the
 quick
 brown
