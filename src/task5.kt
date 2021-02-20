@@ -1,12 +1,12 @@
 fun main(args: Array<String>){
     if (args.isEmpty()) {
-        print("No input params")
+        print("No input data")
     }
     else{
         val numbers = mutableListOf<Int>()
         val res = mutableMapOf<String, Int>()
         for (arg in args.sortedArray().distinct()) {
-            var count: Int = 0
+            var count = 0
             for (i in args) {
                 if (i == arg)
                     count += 1

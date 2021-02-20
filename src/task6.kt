@@ -1,6 +1,5 @@
 fun main(args: Array<String>){
     if (args.isEmpty()) {
-        print("No input params...Using stdin. Enter phrase: ")
         val phrase = readLine()!!.toString()
         val dplPhrase = phrase.split(' ').toTypedArray()
         sortedCounter(dplPhrase)
@@ -15,7 +14,7 @@ fun sortedCounter(inpArgs: Array<String>){
         val numbers = mutableListOf<Int>()
         val res = mutableMapOf<String, Int>()
         for (arg in inpArgs.sortedArray().distinct()) {
-            var count: Int = 0
+            var count = 0
             for (i in inpArgs) {
                 if (i == arg)
                     count += 1
@@ -32,6 +31,6 @@ fun sortedCounter(inpArgs: Array<String>){
         }
     }
     else{
-        print("No any text entered")
+        print("No input data")
     }
 }
