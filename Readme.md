@@ -121,3 +121,9 @@ lazy 1
 over 1
 quick 1
 
+Case3:
+if Input params string: no params
+Output: No input params...Using stdin. Enter phrase:
+Input:
+Output:
+No any text entered
