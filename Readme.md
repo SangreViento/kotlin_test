@@ -1,5 +1,6 @@
 This test project writen by Kotlin
 It contains 6 tasks:
+All task can be run in IntelliJ IDEA runtime
 
 task1.kt
 """Напишите приложение, которое на вход через 
@@ -19,6 +20,7 @@ the
 lazy
 dog
 
+
 task2.kt
 """Слова из предыдущего задания должны быть отсортированы."""
 
@@ -35,6 +37,7 @@ quick
 the
 the
 
+
 task3.kt
 """Слова из предыдущего задания должны быть уникальные"""
 
@@ -50,6 +53,7 @@ over
 quick
 the
 
+
 task4.kt
 """После каждого слова выведите количество повторений"""
 
@@ -64,6 +68,7 @@ lazy 1
 over 1
 quick 1
 the 2
+
 
 task5.kt
 """Список должен быть отсортирован сначала
@@ -81,6 +86,7 @@ jumps 1
 lazy 1
 over 1
 quick 1
+
 
 task6.kt
 """Если вашему приложению не передано ни одного параметра, 
